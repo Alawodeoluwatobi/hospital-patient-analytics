@@ -1,3 +1,11 @@
+# ============================================================
+# Hospital Patient Analytics — 10 Business Questions
+# Author: Oluwatobi A. Alawode, PhD
+# Date: May 2026
+# Tools: R (tidyverse, ggplot2, rstatix, scales, patchwork)
+# Data: Healthcare_Analytics.xlsx
+# ============================================================
+
 ##Healthcare data analytics project
 # Install packages (run once)
 install.packages(c('tidyverse', 'readxl', 'rstatix', 'scales', 'ggthemes'))
@@ -10,7 +18,7 @@ library(scales)
 library(ggthemes)
 
 # Load data
-df <- read_excel("C:/Users/alawo/Documents/Healthcare Analytics_Working.xlsx")
+df <- read_excel("Healthcare Analytics_Working.xlsx")
 
 # Inspect
 glimpse(df)
